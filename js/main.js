@@ -59,10 +59,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Active page nav highlights
     const path = window.location.pathname;
-    const page = path.split("/").pop() || "index.html";
+    const page = path.split("/").pop() || "/";
     document.querySelectorAll('.nav-links a').forEach(a => {
         const href = a.getAttribute('href');
-        if (href === page || (page === "index.html" && href === "index.html")) {
+        if (href === page || (page === "/" && href === "/")) {
             a.classList.add('on');
         } else {
             a.classList.remove('on');
