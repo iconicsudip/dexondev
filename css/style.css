@@ -1393,7 +1393,7 @@ html.js-ready .rev-r.in {
     line-height: 1.62;
 }
 
-.wy-stats {
+.why-stats {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 14px;
@@ -1451,6 +1451,9 @@ html.js-ready .rev-r.in {
     .why-grid {
         grid-template-columns: 1fr;
         gap: 36px;
+    }
+    .why-stats .ws {
+        grid-column: span 1 !important;
     }
 }
 
