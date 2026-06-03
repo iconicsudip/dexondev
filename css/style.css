@@ -95,7 +95,7 @@ body::after {
 
 /* LAYOUT */
 .wrap {
-    max-width: 1160px;
+    max-width: 1208px;
     margin: 0 auto;
     padding: 0 32px;
 }
@@ -126,7 +126,7 @@ nav.scrolled {
 }
 
 .nav-i {
-    max-width: 1160px;
+    max-width: 1208px;
     margin: 0 auto;
     padding: 0 32px;
     width: 100%;
@@ -400,7 +400,7 @@ html.js-ready .rev-r.in {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     gap: 40px;
-    max-width: 1160px;
+    max-width: 1208px;
     margin: 0 auto;
     padding: var(--nav) 32px 40px;
 }
@@ -1698,7 +1698,7 @@ footer {
 }
 
 .ft-i {
-    max-width: 1160px;
+    max-width: 1208px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr 1fr;
@@ -1745,7 +1745,7 @@ footer {
 }
 
 .ft-bot {
-    max-width: 1160px;
+    max-width: 1208px;
     margin: 0 auto;
     display: flex;
     align-items: center;
@@ -1794,18 +1794,45 @@ footer {
 
 /* ── KEYFRAME ANIMATIONS ── */
 @keyframes slideUp {
-    from { transform: translateY(105%); }
-    to { transform: translateY(0); }
+    from {
+        transform: translateY(105%);
+    }
+
+    to {
+        transform: translateY(0);
+    }
 }
+
 @keyframes fadeUp {
-    from { opacity: 0; transform: translateY(16px); }
-    to { opacity: 1; transform: none; }
+    from {
+        opacity: 0;
+        transform: translateY(16px);
+    }
+
+    to {
+        opacity: 1;
+        transform: none;
+    }
 }
+
 @keyframes blink {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.25; }
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.25;
+    }
 }
+
 @keyframes scrollL {
-    from { transform: translateX(0); }
-    to { transform: translateX(-50%); }
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
 }
