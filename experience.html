@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience &amp; Skills — DexonDev · Sudip Das</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div id="cur"></div>
+    <div id="cur-r"></div>
+    <div class="hero-bg"></div>
+    <div class="hero-orb"></div>
+    <div id="stop" onclick="scrollTo({top:0,behavior:'smooth'})"><i class="bi bi-chevron-up"></i></div>
+
+    <!-- NAV -->
+    <nav id="nav">
+        <div class="nav-i">
+            <a class="logo-a" href="index.html">
+                <svg viewBox="0 0 178 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <linearGradient id="lg1" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#60a5fa" />
+                            <stop offset="100%" stop-color="#2563eb" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M3 3 L3 47 L21 47 C35 47 44 37 44 25 C44 13 35 3 21 3 Z" fill="url(#lg1)" />
+                    <path d="M13 16 L33 25 L13 34 Z" fill="white" opacity=".95" />
+                    <text x="53" y="35" font-family="Plus Jakarta Sans,Arial,sans-serif" font-weight="900"
+                        font-size="21" fill="white" letter-spacing="1.5">DEXON</text>
+                </svg>
+            </a>
+            <ul class="nav-links" id="nl">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="founder.html">Founder</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="nav-btn" onclick="window.location.href='contact.html'">Hire Me</button>
+            <button class="hamburger" id="hb" onclick="toggleNav()"><span></span><span></span><span></span></button>
+        </div>
+    </nav>
+
+    <!-- PAGE HEADER -->
+    <header class="page-header">
+        <div class="wrap">
+            <div class="label rev" style="justify-content: center;"><i class="bi bi-briefcase"></i> Background</div>
+            <h1 class="h1 rev">Experience &amp; <span class="grad">Skills</span></h1>
+            <p class="sub rev">Education, professional roles, and technical proficiency mapped to delivery.</p>
+        </div>
+    </header>
+
+    <!-- EXPERIENCE & SKILLS SECTION -->
+    <section id="experience" style="padding-top: 20px;">
+        <div class="wrap">
+            <div class="exp-grid">
+                <div class="rev-l">
+                    <div class="tl">
+                        <div class="tl-item">
+                            <div class="tl-dot"></div>
+                            <div class="tl-date">DEC 2022 — PRESENT</div>
+                            <div class="tl-role">Software Developer 1 — Frontend</div>
+                            <div class="tl-co">Mind Webs Ventures · Remote</div>
+                            <ul class="tl-pts">
+                                <li>Engineered end-to-end app architecture, optimising APIs to significantly reduce time
+                                    complexity and enhance data retrieval speed.</li>
+                                <li>Built an Online Learning Management System achieving 90% UI efficiency for a
+                                    seamless learning experience.</li>
+                                <li>Developed an internal React UI Library using Headless UI &amp; Radix UI, enhancing
+                                    code reusability across teams.</li>
+                                <li>Created a secure private community platform for students aged 10–20 with safe
+                                    educational interaction.</li>
+                                <li>Designed screens across eCommerce, Ed-Tech, and FinTech industries using Figma for
+                                    web &amp; mobile.</li>
+                                <li>Built an AR-based QR Scanner with full API integration using React, Tanstack &amp;
+                                    Redux.</li>
+                                <li>Developed a VR-based home visualiser and multi-provider Notification Management
+                                    System.</li>
+                                <li>Led a dynamic sales module for a breed selling org — split orders &amp; manage
+                                    deliveries across dates.</li>
+                            </ul>
+                        </div>
+                        <div class="tl-item">
+                            <div class="tl-dot"></div>
+                            <div class="tl-date">2019 — 2023</div>
+                            <div class="tl-role">B.Tech — Computer Science &amp; Engineering</div>
+                            <div class="tl-co">Govt. College of Engineering &amp; Textile Technology, Serampore</div>
+                            <ul class="tl-pts">
+                                <li>CGPA: <strong>9.39</strong> — Graduated with distinction in Computer Science.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="rev-r">
+                    <h3 style="font-size:18px;font-weight:700;margin-bottom:22px;letter-spacing:-.01em">Technical
+                        Proficiency</h3>
+                    <div class="sk-block">
+                        <div class="sk-item">
+                            <div class="sk-row">
+                                <div class="sk-ic"><i class="bi bi-layers"></i></div><span class="sk-name">React /
+                                    Next.js</span><span class="sk-pct">95%</span>
+                            </div>
+                            <div class="sk-bar">
+                                <div class="sk-fill" data-w="95"></div>
+                            </div>
+                        </div>
+                        <div class="sk-item">
+                            <div class="sk-row">
+                                <div class="sk-ic"><i class="bi bi-database-gear"></i></div><span class="sk-name">PostgreSQL
+                                    / Supabase</span><span class="sk-pct">92%</span>
+                            </div>
+                            <div class="sk-bar">
+                                <div class="sk-fill" data-w="92"></div>
+                            </div>
+                        </div>
+                        <div class="sk-item">
+                            <div class="sk-row">
+                                <div class="sk-ic"><i class="bi bi-code-slash"></i></div><span
+                                    class="sk-name">TypeScript</span><span class="sk-pct">90%</span>
+                            </div>
+                            <div class="sk-bar">
+                                <div class="sk-fill" data-w="90"></div>
+                            </div>
+                        </div>
+                        <div class="sk-item">
+                            <div class="sk-row">
+                                <div class="sk-ic"><i class="bi bi-terminal"></i></div><span class="sk-name">Python /
+                                    Django</span><span class="sk-pct">85%</span>
+                            </div>
+                            <div class="sk-bar">
+                                <div class="sk-fill" data-w="85"></div>
+                            </div>
+                        </div>
+                        <div class="sk-item">
+                            <div class="sk-row">
+                                <div class="sk-ic"><i class="bi bi-phone"></i></div><span class="sk-name">React
+                                    Native</span><span class="sk-pct">82%</span>
+                            </div>
+                            <div class="sk-bar">
+                                <div class="sk-fill" data-w="82"></div>
+                            </div>
+                        </div>
+                        <div class="sk-item">
+                            <div class="sk-row">
+                                <div class="sk-ic"><i class="bi bi-vector-pen"></i></div><span class="sk-name">Figma /
+                                    UI Design</span><span class="sk-pct">80%</span>
+                            </div>
+                            <div class="sk-bar">
+                                <div class="sk-fill" data-w="80"></div>
+                            </div>
+                        </div>
+                        <div class="sk-item">
+                            <div class="sk-row">
+                                <div class="sk-ic"><i class="bi bi-cpu"></i></div><span class="sk-name">Machine
+                                    Learning</span><span class="sk-pct">72%</span>
+                            </div>
+                            <div class="sk-bar">
+                                <div class="sk-fill" data-w="72"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="soft-pills">
+                        <span
+                            style="font-family:var(--mono);font-size:10px;color:var(--ink3);letter-spacing:.06em;width:100%;margin-bottom:4px">SOFT
+                            SKILLS</span>
+                        <span class="pill">Problem Solving</span>
+                        <span class="pill">Self-learning</span>
+                        <span class="pill">Presentation</span>
+                        <span class="pill">Adaptability</span>
+                        <span class="pill">Async Comms</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TECH STACK SECTION -->
+    <section id="tech">
+        <div class="wrap">
+            <div class="label rev"><i class="bi bi-cpu"></i> Tools &amp; Technologies</div>
+            <h2 class="h2 rev">Tech <span class="grad">Stack</span></h2>
+            <p class="sub rev">Choosing the right tool for every project — not just what's trendy.</p>
+            <div class="tech-grid rev">
+                <div class="tc">
+                    <div class="tc-hd"><i class="bi bi-display"></i>Frontend</div>
+                    <div class="pills"><span class="pill">React</span><span class="pill">Next.js</span><span
+                            class="pill">TypeScript</span><span class="pill">Tailwind CSS</span><span
+                            class="pill">Headless UI</span><span class="pill">Radix UI</span><span class="pill">Tanstack
+                            Query</span><span class="pill">Redux</span></div>
+                </div>
+                <div class="tc">
+                    <div class="tc-hd"><i class="bi bi-server"></i>Backend</div>
+                    <div class="pills"><span class="pill">Node.js</span><span class="pill">Python</span><span
+                            class="pill">Django</span><span class="pill">FastAPI</span><span
+                            class="pill">Express</span><span class="pill">GraphQL</span><span class="pill">REST
+                            APIs</span><span class="pill">WebSockets</span></div>
+                </div>
+                <div class="tc">
+                    <div class="tc-hd"><i class="bi bi-database"></i>Database &amp; Cloud</div>
+                    <div class="pills"><span class="pill">PostgreSQL</span><span class="pill">Supabase</span><span
+                            class="pill">Prisma</span><span class="pill">MongoDB</span><span
+                            class="pill">Redis</span><span class="pill">Firebase</span><span
+                            class="pill">Vercel</span><span class="pill">AWS</span></div>
+                </div>
+                <div class="tc">
+                    <div class="tc-hd"><i class="bi bi-phone"></i>Mobile &amp; AR/VR</div>
+                    <div class="pills"><span class="pill">React Native</span><span class="pill">Expo</span><span
+                            class="pill">AR.js</span><span class="pill">Three.js</span><span
+                            class="pill">iOS</span><span class="pill">Android</span></div>
+                </div>
+                <div class="tc">
+                    <div class="tc-hd"><i class="bi bi-git"></i>DevOps &amp; Tools</div>
+                    <div class="pills"><span class="pill">Git</span><span class="pill">GitHub Actions</span><span
+                            class="pill">Docker</span><span class="pill">Nginx</span><span
+                            class="pill">Linux</span><span class="pill">CI/CD</span></div>
+                </div>
+                <div class="tc">
+                    <div class="tc-hd"><i class="bi bi-palette"></i>Design &amp; ML</div>
+                    <div class="pills"><span class="pill">Figma</span><span class="pill">Machine Learning</span><span
+                            class="pill">Image Segmentation</span><span class="pill">C / C++</span></div>
+                </div>
+            </div>
+            
+            <div style="margin-top: 80px; text-align: center;" class="rev">
+                <a class="btn btn-b" href="work.html"><i class="bi bi-folder2-open"></i> Explore My Projects Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="ft-i">
+            <div class="ft-brand">
+                <svg viewBox="0 0 178 50" fill="none" style="height:30px;width:auto">
+                    <defs>
+                        <linearGradient id="flg" x1="0" y1="0" x2="1" y2="1">
+                            <stop offset="0%" stop-color="#60a5fa" />
+                            <stop offset="100%" stop-color="#2563eb" />
+                        </linearGradient>
+                    </defs>
+                    <path d="M3 3 L3 47 L21 47 C35 47 44 37 44 25 C44 13 35 3 21 3 Z" fill="url(#flg)" />
+                    <path d="M13 16 L33 25 L13 34 Z" fill="white" opacity=".95" />
+                    <text x="53" y="35" font-family="Plus Jakarta Sans,Arial,sans-serif" font-weight="900"
+                        font-size="21" fill="white" letter-spacing="1.5">DEXON</text>
+                </svg>
+                <p>Senior full-stack developer building production-grade systems for founders who care about quality and
+                    long-term partnership.</p>
+            </div>
+            <div class="ft-col">
+                <h5>Navigate</h5>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="founder.html">Founder</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="work.html">Projects</a></li>
+                </ul>
+            </div>
+            <div class="ft-col">
+                <h5>Services</h5>
+                <ul>
+                    <li><a href="services.html">Full-Stack Apps</a></li>
+                    <li><a href="services.html">Database Design</a></li>
+                    <li><a href="services.html">API Development</a></li>
+                    <li><a href="services.html">Mobile Apps</a></li>
+                    <li><a href="services.html">Retainer</a></li>
+                </ul>
+            </div>
+            <div class="ft-col">
+                <h5>Contact</h5>
+                <ul>
+                    <li><a href="mailto:das366966@gmail.com">das366966@gmail.com</a></li>
+                    <li><a href="https://github.com/sudip-das" target="_blank">GitHub ↗</a></li>
+                    <li><a href="contact.html">Start a Project</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="ft-bot">
+            <span>© 2025 DexonDev · Sudip Das. All rights reserved.</span>
+            <span style="color:var(--blue)">das366966@gmail.com</span>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
